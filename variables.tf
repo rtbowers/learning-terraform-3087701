@@ -10,7 +10,7 @@ variable "ami_filter" {
     owner = string
   })
   default = {
-    values = ["bitnami-tomcat-*-x86_64-hvm-ebs-nami"]
+    values = "bitnami-tomcat-*-x86_64-hvm-ebs-nami"
     owners = "979382823631"
   }
 }
